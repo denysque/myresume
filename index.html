@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="event, wedding, show">
-    <meta name="description" content="Ведущий мероприятий"
+    <meta name="description" content="Ведущий мероприятий">
 
     <p> </p>
+    <link rel="stylesheet" href="styles.css">
+    <title>Denys Resume</title>
 </head>
 <body>
+    <div class="container">
+        
+    <div class="info">
 <h1>Ведущий мероприятий</h1> 
 </body>
 </html>
 <img src="https://sun1-27.userapi.com/s/v1/ig2/RISLN2wOW9K8DDK6_IjLvw7HpcqEG_JsRdgm2345MKfReII7KV4tUuyLLUOz0YoJ_huy-mARchF98iY9Q591d3CK.jpg?size=400x400&quality=96&crop=191,290,1084,1085&ava=1"
-alt="моя физиономия">
+alt="моя физиономия" class="avatar">
+<div class="info-text">
 <br>
-<p> Меня зовут <strong> <em> Денис Теличко! </em></strong></p>
+<h3>
+<p>  <b> Денис Теличко </b>
+</p>
+</h3>
+
+<a href="https://tlgg.ru/Denys_Telychko" target="_blank">Telegram</a> </a>
+<a href="https://www.youtube.com/channel/UC-cPXvXIgeRx2ompMktU4QA" target="_blank">YouTube</a> </a>
 <a href="https://denys-telychko.ru" target="_blank">Мой сайт</a> </a>
 <hr>
+<div class="card bg-green">
 <P></P> Я дарю своим гостям тонкое чувство атмосферы и нужное настроение на каждом мероприятии. Настоящий профессионал чувствует настроение каждого и мастерски импровизирует. В своем подходе к работе я нашел собственный стиль, способный найти подход к самому искушенному гостю и поддерживать всегда приподнятую атмосеру праздника.</p>
+</div>
+<div class="card bg-green2">
 <P>Я отлично эрудирован и способен провести любое мероприятие, от бизнес встречи до частной вечеринки, от спортивного события городского уровня до прямого эфира на телеканале. В формате <em>Online</em> и <em>Offline</em>.</P>
-<ul>
+</div>
+<div class="card bg-yellow">
+<ul class="list">
     <li>Выпускник Школы Радиоведущих 2015 года</li>
     <li>Ведущий главной сцены FIFA EURO 2020 в Санкт-Петербурге</li>
     <li>Телеведущий телеканала M1-Global, опыт проведения турниров и прямых эфиров</li>
+    </ul>
+</div>
 </ul>
-<h3>Крупные проекты</h3>
-<table>
+<div class="card bg-projects">
+<h3>Крупные проекты:</h3>
+
+<table class="table">
 <thead>
     <tr>
 <th> Проект</th>
@@ -35,7 +56,7 @@ alt="моя физиономия">
 <th> Период</th>
     </tr>
 <tbody>
-    <tbody>
+    <tbody>     
 <td> M1-Global</td>
 <td> Ведущий прямых эфиров</td>
 <td> 2020 - ... </td>
@@ -46,28 +67,54 @@ alt="моя физиономия">
 </tbody>
 <td> EURO-2020 </td>
 <td> Ведущий главной сцены</td>
-<td> 2022</td>
+<td> 2021</td>
+</div>
 </thead>
 </table>
-<h3>Booking:</h3>
-<form>
-<div>
-    <label for="name">Как Вас зовут?</label>
-    <input type="name" id="name">
 </div>
-<div>
+
+<div class="card-links">
+<h2>Promo video:</h2>
+<ul class="link-list">
+    <li>
+        <a href="https://www.youtube.com/watch?v=T9jX6G_lqaM">MMA-Events</a>
+    </li>
+
+    <li>
+        <a href="https://vimeo.com/666566422">Wedding Day</a>
+    </li>
+    <li>
+        <a href="https://vimeo.com/501974215">New Year</a>
+    </li>
+    
+    </ul>
+    </div>
+<hr>
+
+ <form action="/" class="form">
+<h3>Booking:</h3>
+<div class="form-row"></div>
+
+<div class="form-group">
+    <label for="name">Как Вас зовут?</label>
+    <input type="text" id="name">
+</div>
+<div class="form-group">
     <label for="tel">Номер телефона:</label>
     <input type="tel" id="tel">
 </div>
-<div>
+<div class="form-group">
     <label for="email">Email:</label>
     <input type="email" id="text">
 </div>
-<div>
+</div>
+
+
+<div class="form-group">
     <label for="date">Выберите дату:</label>
     <input type="date" id="date">
 </div>
-<div>
+<div class="form-group">
     <label>Ваше событие:</label>
     <input type="radio" name="work"> Свадьба
     <input type="radio" name="work"> День Рождения
@@ -76,13 +123,18 @@ alt="моя физиономия">
     <input type="radio" name="work"> Другое
 
 </div>
-<div>
+
+<div class="form-group">
     <label for="message">Написать: </label>
-    <br>
+
     <textarea id="message" cols="25" rows="3"></textarea>
 </div>
 
-<button type="submit">Бронь Ведущего</button>
+<input class="btn" type="submit"
+value="Бронь Ведущего">
 
 
 </form>
+</div>
+</body>
+</html>
